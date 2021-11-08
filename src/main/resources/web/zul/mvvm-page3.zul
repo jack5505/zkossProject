@@ -1,0 +1,10 @@
+<zk>
+ <window title="My First ZK Application" border="normal">
+ 	<button label="Say Hello" onClick='alert("Hello World!")'/>
+ 	<zscript>
+ 		void alert(String message){ //declare a function
+ 			Messagebox.show(message);
+ 		}
+ 	</zscript>
+ </window>
+</zk>
